@@ -1,0 +1,7 @@
+{
+  "typeAcquisition": { "enable": true },
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "src"
+  }
+}
