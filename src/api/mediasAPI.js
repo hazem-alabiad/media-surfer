@@ -60,7 +60,7 @@ export const apiMediaSearchByTitle = (
       if (Response) {
         toast.success(`${totalResults} medias have been fetched successfully!`);
         setItem(MEDIAS_TOTAL_NUMBER, totalResults);
-        console.log(res.data);
+        // console.log(res.data);
         fetchAction(Search);
       }
 
